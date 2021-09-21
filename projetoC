@@ -1,18 +1,21 @@
-#incluide <studio.hj>
-#incluide (conio.h>
+#include <stdio.h>
 
-int main(void) {
-  float notas[5] = {7, 8, 9.5, 9.9, 5.2};
-  
-  printf("Exibindo os Valores do Vetor \n\n");
-  printf("notas[0] = %.1f\n", notas[0]);
-  printf("notas[1] = %.1f\n", notas[1]);
-  printf("notas[2] = %.1f\n", notas[2]);
-  printf("notas[3] = %.1f\n", notas[3]);
-  printf("notas[4] = %.1f\n", notas[4]);
-  
-  getch();
-  return 0;
+int main() {
+	int vetor[3], vetor1, vetor2, vetor3;
+
+	printf("Informe o primeiro Vetor: ");
+	scanf("%d", & vetor1);
+
+	printf("Informe o Segundo Vetor: ");
+	scanf("%d", & vetor2);
+
+	printf("Informe o Terceiro Vetor: ");
+	scanf("%d", & vetor3);
+
+	printf("Vetor[1] = %d \n", vetor1);
+	printf("Vetor[2] = %d \n", vetor2);
+	printf("Vetor[3] = %d \n", vetor3);	
+
+	return 0;
 }
-
 
